@@ -6,4 +6,4 @@ y=200
 
 print(x+y)
 
-print("helllos world")
+pri
