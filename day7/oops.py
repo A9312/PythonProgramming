@@ -117,6 +117,44 @@ m2=Myclass()
 print(m2.m3(10,20))
 
 
+class Myclass:
+    name="john"
+    def __init__(self,name):
+        print(name)
+        print(self.name)
+
+m1=Myclass("cena")
+
+
+class Employee:
+    def __init__(self,eid,name,salary):
+        self.eid=eid
+        self.name=name
+        self.salary=salary
+
+    def display(self):
+        print(self.eid,self.name,self.salary)
+
+e1=Employee(101,"john",10000)
+
+e1.display()
+
+class Employee:
+    def __init__(self,eid,name,salary):
+        self.eid=eid
+        self.name=name
+        self.salary=salary
+
+    def __str__(self):
+        return (self.name)
+
+e1=Employee(100,"john cena",110000)
+
+print(e1)
+
+
+
+
 
 
 
